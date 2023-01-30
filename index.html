@@ -12,6 +12,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@1,500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
 </head>
 <body>
     <header>
@@ -27,9 +28,9 @@
 
         </nav>
         <div>
-            <a href="https://www.facebook.com/flor.dorazio"><img src="facebook.svg.svg" alt=""></a>
-            <a href="https://www.instagram.com/flordora86/"><img src="instagram.svg.svg" alt=""></a>
-            <a href="https://www.linkedin.com/in/florencia-dorazio-836384b1/"><img src="linkedin.svg.svg" alt=""></a>
+            <a class="iconos" href="https://www.facebook.com/flor.dorazio"><i class="bi bi-facebook"></i></a>
+            <a class="iconos" href="https://www.instagram.com/flordora86/"><i class="bi bi-instagram"></i></a>
+            <a class="iconos" href="https://www.linkedin.com/in/florencia-dorazio-836384b1/"><i class="bi bi-linkedin"></i></a>
         </div>
     </header>
     <main>
@@ -39,103 +40,96 @@
                 <h1 class="soy">Soy Microbiologa</h1>
                 <img src="" alt="">
                 <p class="vivo">Vivo en Buenos Aires, Argentina</p>
-                <div>
-                    <button class="bot1">
-                        <a class= boton1 href="">Ver mi CV</a>
-                    </button>   
-                    <button class="bot2">
-                        <a class= boton2 href="">Contactarme</a>
-                        <img class="flecha"src="flecha.svg" alt="">
-                    </button>
-                </div>
+                <button class="bot1">
+                    <a class= boton1 href="">Ver mi CV</a>
+                </button>   
+                <button class="bot2">
+                    <a class= boton2 href="">Contactarme</a>
+                    <i class="bi bi-arrow-down-circle"></i>
+                 </button>
             </div>
-           
-            <img class="foto-perfil" src="Lokibb.jpg" alt="">
-            
+            <div>
+                <img class="foto-perfil" src="Lokibb.jpg" alt="">
+            </div>
         </div>
-       <section>
-            <div class="sobre">
+       <section class="sobre">
                 <p class="yo">Sobre mí</p>
                 <h1 class="yo2">Conoceme</h1>
+         </section>
+         
+       <section class="datos">
+            <div class="caja1">
+                <div class="intro">
+                    <h1 class="hola">Hola, soy</h1>
+                    <h2 class="Flor">Florencia D'Orazio</h2>
+                </div>
+                <p class="relleno">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam modi cupiditate quod officia perspiciatis dolores in assumenda, accusamus amet doloremque fugit eius, deleniti dolor, a ducimus delectus possimus eveniet repellat.</p>
             </div>
-        </section>
-        <div class="descripcion">
-            <h2 class="hol">Hola, Soy </h2>
-                <span class="flor"> 
-                    Florencia D'Orazio
-                </span>
-            </h2>
-            
-            </div>
-        </div>
-        <div class="about">
-            <p class="bioq">
-                Soy Bioquímica microbióloga, actualmente me desempeño en un laboratorio de análisis clínicos y mi pasión son las bacterias y sus mecanismos de resistencia. 
-        </p>
-            <div class="exp">
+            <div class="caja2">
                 <h1 class="num">12</h1>
-                <p class="años">Años de experiencia</p>
+                <p>Años de experiencia</p>
+
             </div>
-         </div>
-        </section>
-        <section class="datos">
-            <div>
-                <p class="p1">Nombre:</p>
-                <p class="p2">Florencia D'Orazio</p>
-            </div>
-            <div>
-                <p class="p1">Email</p>
-                <a class= "a1" href="mailto:florenciadorazio@hotmail.com?subject=your title&body=TThe message">florenciadorazio@hotmail.com</a>
-            </div>
-            <div>
-                <p class="p1">Fecha de Nacimiento</p>
-                <p class="p2">18 Enero 1986</p>
-            </div>
-            <div>
-                <p class="p1">De:</p>
-                <p class="p2">Buenos Aires, AR</p>
-            </div>
-        </section>
-        <section class="contenedor">
-            <div class="sobre">
-                <p class="yo">¿Qué hago?</p>
-                <h1 class="yo2">¿Cuáles son mis skills?</h1>
-            </div>
-            <div class="parte1">
-              <div class="cuadrito">
-                <img class="iconos" src="micro.svg" alt="">
-                <h2 class="skills">Microscopía</h2>
-                <p class="relleno">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo rerum repellat placeat totam ut veritatis animi aliquid sint! Qui dicta dolore excepturi deleniti, repudiandae delectus consectetur rerum labore dolor quaerat?</p>
-              </div>  
-              <div class="cuadrito">
-                <img class="iconos" src="pregunta.svg" alt="">
-                <h2 class="skills">Identificación</h2>
-                <p class="relleno">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo rerum repellat placeat totam ut veritatis animi aliquid sint! Qui dicta dolore excepturi deleniti, repudiandae delectus consectetur rerum labore dolor quaerat?</p>
-              </div>
-              <div class="cuadrito">
-                <img class="iconos" src="bacteria.svg" alt="">
-                <h2 class="skills">Bacteriología</h2>
-                <p class="relleno">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo rerum repellat placeat totam ut veritatis animi aliquid sint! Qui dicta dolore excepturi deleniti, repudiandae delectus consectetur rerum labore dolor quaerat?</p>
-              </div>
-            </div>
-            <div class="parte2">
-                <div class="cuadrito">
-                  <img class="iconos" src="hongo.svg" alt="">
-                  <h2 class="skills">Micología</h2>
-                  <p class="relleno">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo rerum repellat placeat totam ut veritatis animi aliquid sint! Qui dicta dolore excepturi deleniti, repudiandae delectus consectetur rerum labore dolor quaerat?</p>
-                </div>  
-                <div class="cuadrito">
-                  <img class="iconos" src="dna.svg" alt="">
-                  <h2 class="skills">Biología molecular</h2>
-                  <p class="relleno">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo rerum repellat placeat totam ut veritatis animi aliquid sint! Qui dicta dolore excepturi deleniti, repudiandae delectus consectetur rerum labore dolor quaerat?</p>
-                </div>
-                <div class="cuadrito">
-                  <img class="iconos" src="informe.svg" alt="">
-                  <h2 class="skills">Informes</h2>
-                  <p class="relleno">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo rerum repellat placeat totam ut veritatis animi aliquid sint! Qui dicta dolore excepturi deleniti, repudiandae delectus consectetur rerum labore dolor quaerat?</p>
-                </div>
-              </div>
-        </section>
+       </section>
+       <section class="datos2">
+        <div>
+            <p class="p1">Nombre:</p>
+            <p class="p2">Florencia D'Orazio</p>
+        </div>
+        <div>
+            <p class="p1">Email</p>
+            <a class= "a1" href="mailto:florenciadorazio@hotmail.com?subject=your title&body=TThe message">florenciadorazio@hotmail.com</a>
+        </div>
+        <div>
+            <p class="p1">Fecha de Nacimiento</p>
+            <p class="p2">18 Enero 1986</p>
+        </div>
+        <div>
+            <p class="p1">De:</p>
+            <p class="p2">Buenos Aires, AR</p>
+        </div>
+    </section>
+
+    <section class="sobre">
+        <p class="yo">Qué hago?</p>
+        <h1 class="yo2">Como puedo ayudarte</h1>
+    </section>
+    <section class="habilidades">
+        <div class="detalles">
+            <img class="iconos2" src="micro.svg" alt="">
+            <h2 class="area">Microscopía</h2>
+            <p class="relleno">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde nisi quaerat aliquid consequuntur doloremque sint tenetur officiis, harum eaque cum quidem, repellat enim, debitis omnis iure perspiciatis dicta. Tempore, unde.</p>
+        </div>
+        <div class="detalles">
+            <img class="iconos2" src="pregunta.svg" alt="">
+            <h2 class="area">Identificación</h2>
+            <p class="relleno">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde nisi quaerat aliquid consequuntur doloremque sint tenetur officiis, harum eaque cum quidem, repellat enim, debitis omnis iure perspiciatis dicta. Tempore, unde.</p>
+        </div>
+        <div class="detalles">
+            <img class="iconos2" src="bacteria.svg" alt="">
+            <h2 class="area">Bacteriología</h2>
+            <p class="relleno">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde nisi quaerat aliquid consequuntur doloremque sint tenetur officiis, harum eaque cum quidem, repellat enim, debitis omnis iure perspiciatis dicta. Tempore, unde.</p>
+        </div>
+        <div class="detalles">
+            <img class="iconos2" src="hongo.svg" alt="">
+            <h2 class="area">Micología</h2>
+            <p class="relleno">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde nisi quaerat aliquid consequuntur doloremque sint tenetur officiis, harum eaque cum quidem, repellat enim, debitis omnis iure perspiciatis dicta. Tempore, unde.</p>
+        </div>
+        <div class="detalles">
+            <img class="iconos2" src="dna.svg" alt="">
+            <h2 class="area">Biología molecular</h2>
+            <p class="relleno">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde nisi quaerat aliquid consequuntur doloremque sint tenetur officiis, harum eaque cum quidem, repellat enim, debitis omnis iure perspiciatis dicta. Tempore, unde.</p>
+        </div>
+        <div class="detalles">
+            <img class="iconos2" src="informe.svg" alt="">
+            <h2 class="area">Informes</h2>
+            <p class="relleno">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde nisi quaerat aliquid consequuntur doloremque sint tenetur officiis, harum eaque cum quidem, repellat enim, debitis omnis iure perspiciatis dicta. Tempore, unde.</p>
+        </div>
+    </section>
+    <section class="skills">
+
+    </section>
+       
         <section class="cv">
             <div class="columna1">
                 <div class="titulo">
@@ -168,10 +162,65 @@
                      <p class="donde">Instituto Dupuytren (2015-2016)</p>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci illum in at rem voluptas sunt, quae distinctio quis praesentium odio, similique mollitia, voluptatem tempora dolores sequi saepe? Fugiat, iusto totam?</p> 
                 </div>
-            <div>
-
             </div>
         </section>
+        <section class="idiomas">
+            <h2>Idiomas</h2>
+            <div class="graficos">
+                <div class="izq">
+                    <div>
+                        <p class="lengua">Inglés escrito
+                            <span>80%</span>
+                        </p>
+                    </div> 
+                    <div class="barra">
+                            <div class="in"></div>
+                    </div> 
+                    <div>
+                        <p class="lengua">Italiano escrito
+                            <span>60%</span>
+                         </p>
+                    </div> 
+                    <div class="barra">
+                        <div class="it"></div>
+                    </div> 
+                    <div>
+                        <p class="lengua">Español escrito
+                             <span>100%</span>
+                        </p>
+                    </div> 
+                        <div class="barra">
+                            <div class="es"></div>
+                    </div> 
+                </div>
+                <div class="izq">
+                    <div>
+                        <p class="lengua">Inglés oral
+                            <span>80%</span>
+                        </p>
+                        </div> 
+                            <div class="barra">
+                        <div class="in"></div>
+                    </div> 
+                    <div>
+                        <p class="lengua">Italiano oral
+                            <span>60%</span>
+                         </p>
+                    </div> 
+                        <div class="barra">
+                            <div class="it"></div>
+                        <div>
+                        <p class="lengua">Español oral
+                             <span>100%</span>
+                        </p>
+                    </div> 
+                        <div class="barra">
+                            <div class="es"></div>
+                    </div> 
+                </div>
+            </div>
+        </section>
+        
     </main>
 </body>
 </html>

@@ -109,9 +109,11 @@ header{
 }
 .datos{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
     padding-bottom: 15px;
+    gap: 50px;
+
    
 }
 .caja1{
@@ -205,9 +207,10 @@ header{
 .habilidades{
     display: flex;
     align-items: center;
+    justify-content: center;
     flex-wrap: wrap;
     text-align: center;
-    padding: 10px 50px 10px 50px;
+    padding: 10px 50px 10px 150px;
    
 }
 .detalles{
@@ -235,14 +238,16 @@ header{
     
     display: flex;
     justify-content: center;
-    padding-top: 30px;    
+    padding-top: 30px; 
+       
 }
 .columna1{
     display: flex;
     flex-direction: column;
     width: 100%;
-    padding-left: 150px;
+    padding-left: 250px;
     padding-right: 50px;
+    
 
 }
 .columna2{
@@ -262,8 +267,12 @@ header{
     border-left: 2px solid rgb(59, 199, 164);
     padding: 15px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    
-    
+       
+}
+.lorem{
+    border-bottom: 1px solid grey;
+    padding-bottom: 30px;
+    margin-bottom: 10px;
 }
 .title{
     padding: 10px;
@@ -282,13 +291,15 @@ header{
 
 }
 .tituloskills{
-    padding: 0px 0px 30px 100px;
+    padding: 0px 0px 30px 250px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-decoration: underline;
 }
 .idiomas{
     display: flex;
-    justify-content: space-evenly;
+    gap: 200px;
+    justify-content: center;
+    
 
        
 }
@@ -484,4 +495,104 @@ label{
     
     
     
+}
+/*------------responsive--------------------/*/
+
+@media(max-width:400px){
+    .hero{
+        width:100%;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    header{
+        display: block;
+        width: 100%;
+        padding: 0%;
+    }
+    .datos{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+
+    }
+    .caja1{
+        width: 100%;
+    }
+    .tituloskills{
+        padding-left: 40px;
+    }
+    .idiomas{
+        flex-wrap: wrap;
+        gap: 0px;
+        width: 400px;
+        
+    }
+    .contenedor{
+       width: 300px; 
+       justify-content: center;
+       align-items: center;
+    }
+    .intro{
+        flex-direction: column;
+        
+    }
+    .Flor{
+        border: none;
+    }
+    .datos2{
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: start;
+        align-items: center;
+        gap: 10px;
+        padding-left: 30px;
+       
+    }
+    .habilidades{
+        width: 100%;
+        padding: 0px;    
+    }
+
+    .detalles{
+        width:100%;
+        text-align:center;
+        padding-left: 20px;
+        
+    }
+    .cv{
+        display: flex;
+        flex-direction: column;
+    }
+    .columna1{
+        padding-left: 20px;
+        padding-bottom: 20px;
+    }
+    .columna2{
+        padding-left: 20px;
+        padding-bottom: 20px;
+    }
+    .idiomas{
+        
+        gap: 0px;
+    }
+    .galeria{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .imagenes{
+        width: 90%;
+    }
+    .final{
+        flex-direction: column;
+        width: 400px;
+        justify-content: flex-start;
+        gap: 0px;
+    }
+    .ultimo{
+        width: 100%;
+        justify-content: left;
+        align-items: flex-start;
+    }
 }
